@@ -22,3 +22,8 @@
             
 --------------
 ## Добавление пользователя
+
+
+    with open('users.txt', 'a') as f:
+        f.write(f'{login}:{password}\n') 
+    return True
