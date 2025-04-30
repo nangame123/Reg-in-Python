@@ -1,10 +1,10 @@
 # Reg-in-Python
 
-Thanks to all those who visited this page. I'm glad, this is my first project that I posted on github.com.
-I hope he was helpful.
+Спасибо всем, кто посетил эту страницу. Я рад, что это мой первый проект, о котором я опубликовал статью github.com.
+Я надеюсь, что я был полезен.
 
-## How to create a new file in Python ##
-To make it, you need to:
+## Как создать новый файл в Python 
+Чтобы сделать это, вам нужно:
 
 
     if not os.path.exists('users.txt'):
@@ -14,3 +14,10 @@ To make it, you need to:
 ---------------
 
 ## Проверка на наличие логина
+Чтобы сделать это, вам нужно:
+
+
+    for user in users:
+        args = user.split(':')
+        if login == args[0]:  
+            return False 
