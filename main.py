@@ -52,19 +52,3 @@ if not result:
 else:
     p('Регистрация успешно!')
 
-
-#def check():
-#    while password1 != password2:
-#        p("Пароль введён неправильно")
-#        t.sleep(1)
-#        p("Повторите попытку создания пароля")
-#        t.sleep(1)
-#    while login == " ":
-#        p("Введите имя")
-#    while len(password1) < 6 or len(password2) < 6:
-#        p("Количество символов в пароле меньше 6")
-#    while len(password1) > 15 or len(password2) > 15:
-#        p("Количество символов в пароле ,ольше 15")
-#    if login == "Nangamer":
-#        p("мем")
-
