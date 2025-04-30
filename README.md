@@ -6,6 +6,9 @@ I hope he was helpful.
 ## How to create a new file in Python ##
 To make it, you need to:
 
-  if not os.path.exists('users.txt'):
+
+    if not os.path.exists('users.txt'):
         with open('users.txt', 'w'):
             pass
+            
+---------------
